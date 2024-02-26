@@ -1,0 +1,29 @@
+body {
+  background-image: url(/自學網頁的嬰兒教材/lesson6_landingpage/orange.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#banner {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+
+#title {
+  flex: none;
+  font-size: 48px;
+}
+
+#feature {
+  flex: none;
+  display: flex;
+}
+
+#log {
+  flex: none;
+}
