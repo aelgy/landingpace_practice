@@ -2,7 +2,6 @@ body {
   background-image: url(/自學網頁的嬰兒教材/lesson6_landingpage/orange.jpg);
   background-attachment: fixed;
   background-size: cover;
-  opacity: 0.8;
 }
 
 #banner {
@@ -10,20 +9,53 @@ body {
   background-color: white;
   width: 100%;
   justify-content: space-between;
+  opacity: 0.8;
 }
-
-
 
 #title {
   flex: none;
   font-size: 48px;
+  margin: 10px 0px 10px 10%;
 }
 
 #feature {
   flex: none;
   display: flex;
+  font-size: 24px;
+  width: 20%;
+  justify-content: space-around;
 }
 
 #log {
   flex: none;
+  align-self: center;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+
+}
+
+a:hover,
+a:active {
+  color: blueviolet;
+}
+
+#background {
+  padding: 10%;
+}
+
+#order {
+  background-color: white;
+  width: 100%;
+  opacity: 0.8;
+  padding: 5%;
+  font-size: 20px;
+}
+
+#content {
+  justify-content: center;
+  display;
 }
